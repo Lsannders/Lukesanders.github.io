@@ -1,0 +1,115 @@
+
+.body {
+    background-color: #808080;
+}
+
+#banner {
+    font-size: 200px;
+    color: #7851A9;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;    
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+.li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color: #7851A9;
+}
+
+.header {
+    display: grid;                  
+    grid-template-columns: 45% 18% 18% 18%; 
+    height: 100px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    
+}
+
+
+.links {
+    text-align: center;
+    padding: 40px;
+}
+
+
+.luke {
+    text-align: left;
+    font-size: 70px;
+    color:  blue;
+}
+
+.current{
+    background-color: #7851A9;
+}
+
+
+.main { 
+    display: grid;      
+    background-color: #7851A9;            
+    grid-template-columns: 45% 55%;          
+    height: 400px; 
+    padding: 20px;      
+}  
+
+.title {
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.desc {
+    text-align: center;
+    color: white;
+    
+}
+
+.descimg { 
+    display: grid;      
+    background-color: #7851A9;            
+    grid-template-columns: 33% 33% 33%;  
+    padding: 30px;
+}
+
+.desclink {
+    text-decoration: none;
+    
+}
+
+
+
+.preview {
+    color: #7851A9;
+    text-align: left;
+    
+}
+    
+    
+.preimg {
+    display: grid;                 
+    grid-template-columns: 25% 25% 25% 25%; 
+}
+    
+    
+    
+    
